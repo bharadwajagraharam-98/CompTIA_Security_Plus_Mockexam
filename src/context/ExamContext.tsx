@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useEffect, useCallback, useRef } from 'react';
+import { createContext, useContext, useState, useEffect, useCallback, useRef, type ReactNode } from 'react';
 import { supabase } from '../lib/supabase';
 import type { Question, ExamSession, ExamAnswer } from '../lib/supabase';
 
@@ -27,7 +27,7 @@ const SESSION_KEY_STORAGE = 'comptia_session_key';
 const EXAM_STATE_STORAGE = 'comptia_exam_state';
 const EXAM_DURATION = 90 * 60; // 90 minutes in seconds
 
-export function ExamProvider({ children }: { children: React.ReactNode }) {
+export function ExamProvider({ children }: { children: ReactNode }) {
   const [status, setStatus] = useState<ExamStatus>('idle');
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
