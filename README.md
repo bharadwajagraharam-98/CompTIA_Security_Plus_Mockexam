@@ -134,13 +134,6 @@ This is an **unofficial** study tool and is not affiliated with, endorsed by, or
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
-## 📬 Contact
-
-**<Your Name>**
-
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-name](https://linkedin.com/in/your-name)
-- Email: your.email@example.com
 
 ---
 
